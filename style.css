@@ -1,1 +1,25 @@
-
+nav {
+    background-color: #ffa639; /* Background color of the navigation bar */
+    padding: 10px; /* Add padding to create spacing around the links */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list bullets */
+    margin: 0; /* Remove default margin from the unordered list */
+    padding: 0; /* Remove default padding from the unordered list */
+  }
+  
+  nav li {
+    display: inline-block; /* Display list items in a row */
+  }
+  
+  nav a {
+    color: white; /* Color of the link text */
+    text-decoration: none; /* Remove underline from the links */
+    padding: 8px 15px; /* Add padding to create spacing around the link text */
+  }
+  
+  nav a:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
